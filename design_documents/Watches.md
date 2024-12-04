@@ -1,3 +1,22 @@
+# Starting Checklist
+
+## Basic Setup
+
+- [/] Add headers
+- [/] Run Factory Tests
+- [x] Setup IDEs
+- [ ] Loading basic libraries for hardware
+- [ ] Run Blink program
+- [ ] Run Screen test program
+
+## Battery Functions
+
+- [ ] Wire up battery
+- [ ] Test running on battery
+- [ ] Test charging
+- [ ] Wire up voltage measuring circuit (do research first)
+	- [ ] Test voltage measuring
+
 # Links
 
 ## Hardware
