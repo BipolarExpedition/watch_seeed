@@ -6,7 +6,7 @@
 - [/] Run Factory Tests
 - [x] Setup IDEs
 - [x] Loading basic libraries for hardware
-- [ ] Run Blink program
+- [/] Run Blink program
 
 ## Basic Screen Setup
 
@@ -27,6 +27,11 @@
 - [ ] Test charging
 - [ ] Test voltage measuring
 
+> [!tip]+ Existing Measuring Technique
+> For the design of the Round Display, we used the`A0`/`D0` pins on the XIAO to connect to the circuitry of the on-board battery. The remaining battery charge can be obtained by reading the analog value of this pin.
+
+# Prototype 1
+
 ## SD Functions 1
 
 - [ ] Detect SD
@@ -35,12 +40,14 @@
 - [ ] Write a file
 
 ## Interaction 1
+
 - [ ] Detect when screen is touched
 - [ ] Detect position of touch
 - [ ] "buttons"
 - [ ] tapping
 
 ## Bluetooth Functions 1
+
 - [ ] Scan for broadcasting devices.
 - [ ] Broadcast presence
 - [ ] Connect to device
@@ -50,12 +57,13 @@
 - [ ] Scan available networks
 - [ ] Connect to network
 	- [ ] Eventually use a wifi_config file for preferences, and authentications
--  [ ] Look up a hostname
+- [] Look up a hostname
 - [ ] Perform `GET` for http
 - [ ] Perform `POST` for http
 - [ ] Listen and receive on a socket
 - [ ] Send to a socket
 	
+
 ## Aesthetic Functions 1
 
 - [ ] Customized face background (Eventually read from SD)
@@ -84,7 +92,6 @@
 | Wifi               | 2.4GHz                               |
 | Bluetooth          | BLE: Bluetooth 5.0, Bluetooth Mesh   |
 | Memory             | On-chip 8M PSRAM & 8MB Flash         |
-|                    |                                      |
 | Low Power(s)       | 3.8V @ (25mA, 2mA, 14µA)             |
 | Dimensions         | 21 x 17.8mm                          |
 | Circuit Idle       | 19-22mA                              |
