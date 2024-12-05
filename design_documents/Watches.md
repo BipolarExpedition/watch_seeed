@@ -2,12 +2,12 @@
 
 ## Basic Setup
 
-- [/] Add headers
-- [/] Run Factory Tests
-- [/] Setup IDEs
-- [/] Loading basic libraries for hardware
-- [/] Run Blink program
-- [/] Run Screen test program
+- [x] Add headers
+- [x] Run Factory Tests
+- [x] Setup IDEs
+- [x] Loading basic libraries for hardware
+- [x] Run Blink program
+- [x] Run Screen test program
 - [ ] Run Screen touch test
 
 ## Battery Functions
