@@ -19,6 +19,7 @@
 		> Note: Libraries can also be found in Library Manager.
 		
 	- [x] Make sure to move the `lv_conf.h` file from `libraries/Seeed_Arduino_Round_display` is copied to `libraries`
+- [ ] Run Screen touch test
 
 ## Battery Functions
 
