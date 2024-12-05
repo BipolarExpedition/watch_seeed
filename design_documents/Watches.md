@@ -2,11 +2,11 @@
 
 ## Basic Setup
 
-- [/] Add headers
-- [/] Run Factory Tests
+- [x] Add headers
+- [x] Run Factory Tests
 - [x] Setup IDEs
 - [x] Loading basic libraries for hardware
-- [/] Run Blink program
+- [x] Run Blink program
 
 ## Basic Screen Setup
 
@@ -41,6 +41,7 @@
 
 ## Interaction 1
 
+- [ ] Configure pins for touch screen
 - [ ] Detect when screen is touched
 - [ ] Detect position of touch
 - [ ] "buttons"
@@ -57,7 +58,7 @@
 - [ ] Scan available networks
 - [ ] Connect to network
 	- [ ] Eventually use a wifi_config file for preferences, and authentications
-- [] Look up a hostname
+- [ ] Look up a hostname
 - [ ] Perform `GET` for http
 - [ ] Perform `POST` for http
 - [ ] Listen and receive on a socket
