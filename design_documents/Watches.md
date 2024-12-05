@@ -4,10 +4,11 @@
 
 - [/] Add headers
 - [/] Run Factory Tests
-- [x] Setup IDEs
-- [ ] Loading basic libraries for hardware
-- [ ] Run Blink program
-- [ ] Run Screen test program
+- [/] Setup IDEs
+- [/] Loading basic libraries for hardware
+- [/] Run Blink program
+- [/] Run Screen test program
+- [ ] Run Screen touch test
 
 ## Battery Functions
 
