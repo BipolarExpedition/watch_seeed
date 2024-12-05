@@ -6,20 +6,20 @@
 - [x] Run Factory Tests
 - [x] Setup IDEs
 - [x] Loading basic libraries for hardware
-- [x] Run Blink program
+- [/] Run Blink program
 
 ## Basic Screen Setup
 
 - [x] Ensure all required libraries are installed (lvgl and more)
 	- [x] [Getting Started with Seeed Studio Round Display for XIAO](https://wiki.seeedstudio.com/get_start_round_display/#step-3-configure-the-arduino-ide-for-the-xiao-you-are-using)
-		> [!seealso]+ Additional Info
-		> Information on [using LVGL and TFT](https://wiki.seeedstudio.com/using_lvgl_and_tft_on_round_display#common-interfaces-for-lvgl-library)
-		> [ZIP file for latest lvgl](https://github.com/lvgl/lvgl/archive/refs/heads/master.zip)
-		> 
-		> Note: Libraries can also be found in Library Manager.
-		
 	- [x] Make sure to move the `lv_conf.h` file from `libraries/Seeed_Arduino_Round_display` is copied to `libraries`
 - [ ] Run Screen touch test
+      
+> [!NOTE]
+> Information on [using LVGL and TFT](https://wiki.seeedstudio.com/using_lvgl_and_tft_on_round_display#common-interfaces-for-lvgl-library)
+> [ZIP file for latest lvgl](https://github.com/lvgl/lvgl/archive/refs/heads/master.zip)
+> 
+> Note: Libraries can also be found in Library Manager.
 
 ## Battery Functions
 
@@ -28,8 +28,8 @@
 - [ ] Test charging
 - [ ] Test voltage measuring
 
-> [!tip]+ Existing Measuring Technique
-> For the design of the Round Display, we used the`A0`/`D0` pins on the XIAO to connect to the circuitry of the on-board battery. The remaining battery charge can be obtained by reading the analog value of this pin.
+> [!TIP]
+> "For the design of the Round Display, we used the`A0`/`D0` pins on the XIAO to connect to the circuitry of the on-board battery. The remaining battery charge can be obtained by reading the analog value of this pin."
 
 # Prototype 1
 
