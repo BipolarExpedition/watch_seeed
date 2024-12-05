@@ -33,6 +33,10 @@
 
 # Prototype 1
 
+## Display Functions 1
+- [ ] Show analogue time
+- [ ] Show digital time
+
 ## SD Functions 1
 
 - [ ] Detect SD
